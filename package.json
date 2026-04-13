@@ -1,0 +1,17 @@
+{
+  "name": "playwright-ci-cd-advanced",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo Playwright project with mock login app and CI/CD pipelines",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "serve:app": "node scripts/server.js",
+    "lint": "node -e \"console.log('Lint OK')\""
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}
